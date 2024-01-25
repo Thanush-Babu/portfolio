@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+.navbar-brand{
+    font-family: 'Climate Crisis', sans-serif;
+}
+.navbar{
+    border-radius: .5rem;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0; 
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .header {
+    z-index: 2;
+    display: block;
+    position:sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.292) !important;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .content {
+    margin-top: 8.3rem;
+    z-index: 1;
+    display: block;
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .COLUMN-1,.COLUMN-2,.COLUMN-3,.COLUMN-4{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
